@@ -37,10 +37,17 @@ class CompressImage {
             icon: 'fa:image',
             group: ['transform'],
             version: 1,
-            description: 'Compress and optionally resize images using sharp',
+            description: 'Compress, convert, and optionally resize images (JPEG/PNG/WebP/AVIF).',
             documentationUrl: 'https://github.com/lovell/sharp',
             defaults: {
                 name: 'Compress Image',
+                color: '#f97316'
+            },
+            codex: {
+                categories: ['Image'],
+                subcategories: {
+                    Image: ['Transform'],
+                },
             },
             inputs: ['main'],
             outputs: ['main'],

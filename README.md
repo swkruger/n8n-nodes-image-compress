@@ -43,6 +43,8 @@ For detailed installation steps and configuration options, please visit the offi
    - A compressed image in the specified binary property.
    - JSON metadata with `compression.originalSize`, `compression.newSize`, and `compression.percentReduction`.
 
+![n8n Image Compress - usage screenshot](./assets/screenshot.png)
+
 ## Node Options
 - Input Source: Binary property or Base64 field
 - Output Format: jpg, png, webp, avif
