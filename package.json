@@ -1,0 +1,61 @@
+{
+  "name": "n8n-nodes-image-compress",
+  "version": "0.1.0",
+  "description": "n8n custom node to compress images using sharp",
+  "keywords": [
+    "n8n",
+    "n8n-community-node",
+    "n8n-community-node-package",
+    "image",
+    "sharp",
+    "compression"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://example.com/your/repo.git"
+  },
+  "bugs": {
+    "url": "https://example.com/your/repo/issues"
+  },
+  "homepage": "https://example.com/your/repo#readme",
+  "author": "DevToolsHub (contactme@devtoolskithub.com)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**",
+    "assets/**",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -w -p tsconfig.json",
+    "prepare": "npm run build"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "sharp": "^0.34.3"
+  },
+  "peerDependencies": {
+    "n8n-core": ">=1.0.0",
+    "n8n-workflow": ">=1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.5.4",
+    "n8n-workflow": "^1.47.0",
+    "n8n-core": "^1.47.0"
+  },
+  "n8n": {
+    "nodes": [
+      "dist/nodes/CompressImage/CompressImage.node.js"
+    ],
+    "credentials": []
+  }
+}
