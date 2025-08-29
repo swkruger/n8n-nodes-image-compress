@@ -13,12 +13,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://example.com/your/repo.git"
+    "url": "git+https://github.com/swkruger/n8n-nodes-image-compress.git"
   },
   "bugs": {
-    "url": "https://example.com/your/repo/issues"
+    "url": "https://github.com/swkruger/n8n-nodes-image-compress/issues"
   },
-  "homepage": "https://example.com/your/repo#readme",
+  "homepage": "https://github.com/swkruger/n8n-nodes-image-compress#readme",
   "author": "DevToolsHub (contactme@devtoolskithub.com)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
